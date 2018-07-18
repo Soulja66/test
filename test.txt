@@ -5,4 +5,14 @@ git init  首次上传需初始化
 git add . 上传文件夹下所有文件
 git commit -m "仿iqiyi网站"  提交，并注释
 git remote add origin https://github.com/soulja66/viedio.git
-git push -u origin master 
+git push -u origin master 第二次提交去掉-u
+
+
+初次安装
+$ ssh -keygen -t rsa -C "976078549@qq.com"
+
+ssh -T git@github.com  检查是否成功绑定
+
+git config --global user.name "soulja66"
+git config --global user.email "976078549@qq.com"
+
