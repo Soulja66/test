@@ -1,0 +1,8 @@
+cd /D
+ls 查看当前文件夹存在哪些文件
+pwd  查看当前位置
+git init  首次上传需初始化
+git add . 上传文件夹下所有文件
+git commit -m "仿iqiyi网站"  提交，并注释
+git remote add origin https://github.com/soulja66/viedio.git
+git push -u origin master 
